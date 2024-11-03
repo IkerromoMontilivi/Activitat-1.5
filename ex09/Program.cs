@@ -20,7 +20,7 @@
             }
 
             Console.WriteLine($"El numero té {cont} xifres");
-
+            //La condicio es que al fer una divisio entera del numero entre 10 elevat a la n doni 0
         }
     }
 }
