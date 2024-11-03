@@ -1,4 +1,4 @@
-﻿namespace ex01
+﻿namespace ex02
 {
     internal class Program
     {
@@ -20,7 +20,7 @@
                 numero = sr.ReadLine();
             }
             //Mostrar resultats
-            Console.WriteLine($"Hi havien {cont} valors al fitxer");
+            Console.WriteLine($"Hi han {cont} valors al fitxer");
         }
     }
 }
