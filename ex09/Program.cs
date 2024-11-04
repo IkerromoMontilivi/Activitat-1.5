@@ -14,13 +14,13 @@
 
             while (rdivisio != 0)
             {
-                rdivisio = numero / divisor;
                 cont++;
-                divisor = divisor * 10;
+                divisor = Convert.ToInt32(Math.Pow(10, cont));
+                rdivisio = numero / divisor;
             }
 
             Console.WriteLine($"El numero té {cont} xifres");
-            //La condicio es que al fer una divisio entera del numero entre 10 elevat a la n doni 0
+            //La condicio es que al fer una divisio entera del numero entre 10 elevat a n doni 0, n siguent el nombre de xifres que te el numero
         }
     }
 }
